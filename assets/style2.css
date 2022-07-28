@@ -1,0 +1,75 @@
+#descript {
+    margin-top: -300px;
+}
+
+.image-description img {
+    width: 360px;
+}
+
+.modal-dialog {
+    max-width: 720px;
+}
+
+h1.display-4.bg-dark {
+    max-width: 40%;
+    min-width: 40%;
+}
+
+@media screen and (max-width: 992px){
+    #header h1.display-4 {
+        font-size: 2.5rem;
+    }
+
+    #descript {
+        margin-top: -200px;
+    }
+
+    #wave2 {
+        margin-top: -25vh!important;
+    }
+
+    #contact {
+        margin-top: 0!important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #header h1.display-4 {
+        font-size: 1.75rem;
+    }
+    
+    #contact {
+        margin-top: 25vh!important;
+    }
+
+    #wave2 {
+        margin-top: -10vh!important;
+    }
+}
+
+@media screen and (max-width:576px){
+
+    #laboratorium .container {
+        margin-bottom: 75px!important;
+    }
+    
+    #wave2 {
+        margin-bottom: -35vh!important;
+    }
+
+    #wave3 {
+        margin-top: -35vh!important;
+    }
+
+    .image-description img {
+        width: 240px;
+    }
+
+    #descript {
+        margin-top: -150px;
+    }
+
+    #contact {
+        padding-top: 75%;
+    }
+}

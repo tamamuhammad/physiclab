@@ -1,0 +1,217 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-tosca {
+    background-color: #00a899;
+}
+
+.navbar-brand {
+    padding-left: 225px!important;
+    margin-left: -225px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+.boxRadius {
+    box-shadow: 0;
+    border-radius: 0;
+}
+
+.nav-link:hover {
+    background-color: #343a40!important;
+    color: white!important;
+    border-radius: 5px;
+}
+
+#header {
+    color: black;
+}
+
+.image-header {
+    box-sizing: border-box;
+}
+
+.image-header img {
+    border: 4px solid #00a899;
+    box-shadow: 0px 0px 12px #00a899;
+    border-radius: 100%;
+    width: 150px;
+}
+
+.image-header .image-top {
+    margin-top: -200px;
+}
+
+a#continue {
+    margin-left: -12px;
+}
+
+#descript {
+    position: relative;
+    margin-top: -400px;
+}
+
+#descript .container {
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0,   0.1);
+    background-color: white;
+    text-align: justify;
+}
+
+hr {
+    width: 12.5%!important;
+    border-top: 2.5px solid #00a899;
+}
+
+.image-description img {
+    width: 450px;
+}
+
+#wave, #wave2, #wave3 {
+    box-sizing: border-box;
+}
+
+#laboratorium {
+    padding-top: 7.5%;
+}
+
+#laboratorium p.lead {
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+
+#laboratorium .card {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+}
+
+#laboratorium .card-option .card-body, .card-option img {
+    opacity: 25%;
+}
+
+#laboratorium .card-img-top {
+    height: 30vh;
+}
+
+.carousel-control-prev .control, .carousel-control-next .control {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #00a899;
+    border-radius: 100%;
+}
+
+#contact {
+    box-sizing: border-box;
+    padding-top: 40%;
+    margin-top: -75vh;
+    background-color: rgba(240, 240, 240, 1);
+}
+
+@media screen and (max-width: 992px){
+    #descript {
+        margin-top: -300px;
+    }
+
+    #laboratorium .container {
+        margin-bottom: -5vh!important;
+    }
+
+    #laboratorium .card-option {
+        display: none!important;
+    }
+
+    #contact {
+        margin-top: -30vh;
+        padding-top: 25%;
+    }
+
+    #contact .row {
+        justify-content: center;
+    }
+
+    .branding {
+        max-width: 50vw;
+    }
+
+    #footer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .nav-link {
+        padding-left: 5%;
+    }
+
+    #header {
+        text-align: center;
+    }
+
+    a#continue {
+        margin-top: 10%;
+        width: 100%;
+    }
+
+    #descript {
+        margin-top: -200px;
+    }
+
+    #contact {
+        padding-top: 50%;
+        margin-top: -25vh;
+    }
+
+    #contact .contact {
+        margin: 5vh 0;
+    }
+
+    #contact .branding {
+        display: flex;
+        justify-content: center;
+    }
+
+    #laboratorium .container {
+        margin-bottom: 0!important;
+    }
+    
+    #wave2 {
+        margin-bottom: -33vh!important;
+    }
+
+    #wave3 {
+        margin-top: -33vh!important;
+    }
+
+    .image-description img {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width:576px){
+    #laboratorium .container {
+        margin-bottom: 75px!important;
+    }
+    
+    #wave2 {
+        margin-bottom: -35vh!important;
+    }
+
+    #wave3 {
+        margin-top: -35vh!important;
+    }
+
+    .image-description img {
+        width: 240px;
+    }
+
+    #descript {
+        margin-top: -150px;
+    }
+
+    #contact {
+        padding-top: 75%;
+    }
+}
